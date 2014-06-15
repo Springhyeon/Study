@@ -14,6 +14,6 @@ public class StudentController {
 	@RequestMapping(value = "/main")
 	public String main(String menu) {
 
-		return "student/student_main";
+		return "student/main";
 	}
 }
